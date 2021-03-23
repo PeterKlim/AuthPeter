@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9AC8FB260A3C8A0088D2BE /* SingInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9AC8FA260A3C8A0088D2BE /* SingInViewController.swift */; };
+		CE9AC903260A3CEA0088D2BE /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9AC902260A3CEA0088D2BE /* Auth.swift */; };
+		CEF35C13260A32D90058BEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF35C12260A32D90058BEFF /* AppDelegate.swift */; };
+		CEF35C15260A32D90058BEFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF35C14260A32D90058BEFF /* SceneDelegate.swift */; };
+		CEF35C1A260A32D90058BEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF35C18260A32D90058BEFF /* Main.storyboard */; };
+		CEF35C1C260A32DA0058BEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF35C1B260A32DA0058BEFF /* Assets.xcassets */; };
+		CEF35C1F260A32DA0058BEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF35C1D260A32DA0058BEFF /* LaunchScreen.storyboard */; };
+		CEF35C2A260A32DB0058BEFF /* PeterAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF35C29260A32DB0058BEFF /* PeterAuthTests.swift */; };
+		CEF35C35260A32DB0058BEFF /* PeterAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF35C34260A32DB0058BEFF /* PeterAuthUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF35C26260A32DB0058BEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF35C07260A32D90058BEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF35C0E260A32D90058BEFF;
+			remoteInfo = PeterAuth;
+		};
+		CEF35C31260A32DB0058BEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF35C07260A32D90058BEFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF35C0E260A32D90058BEFF;
+			remoteInfo = PeterAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE9AC8FA260A3C8A0088D2BE /* SingInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInViewController.swift; sourceTree = "<group>"; };
+		CE9AC902260A3CEA0088D2BE /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		CEF35C0F260A32D90058BEFF /* PeterAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeterAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF35C12260A32D90058BEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF35C14260A32D90058BEFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEF35C19260A32D90058BEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF35C1B260A32DA0058BEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF35C1E260A32DA0058BEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF35C20260A32DA0058BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF35C25260A32DB0058BEFF /* PeterAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeterAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF35C29260A32DB0058BEFF /* PeterAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeterAuthTests.swift; sourceTree = "<group>"; };
+		CEF35C2B260A32DB0058BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF35C30260A32DB0058BEFF /* PeterAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeterAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF35C34260A32DB0058BEFF /* PeterAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeterAuthUITests.swift; sourceTree = "<group>"; };
+		CEF35C36260A32DB0058BEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF35C0C260A32D90058BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF35C22260A32DB0058BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF35C2D260A32DB0058BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF35C06260A32D90058BEFF = {
+			isa = PBXGroup;
+			children = (
+				CEF35C11260A32D90058BEFF /* PeterAuth */,
+				CEF35C28260A32DB0058BEFF /* PeterAuthTests */,
+				CEF35C33260A32DB0058BEFF /* PeterAuthUITests */,
+				CEF35C10260A32D90058BEFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF35C10260A32D90058BEFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF35C0F260A32D90058BEFF /* PeterAuth.app */,
+				CEF35C25260A32DB0058BEFF /* PeterAuthTests.xctest */,
+				CEF35C30260A32DB0058BEFF /* PeterAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF35C11260A32D90058BEFF /* PeterAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CEF35C12260A32D90058BEFF /* AppDelegate.swift */,
+				CEF35C14260A32D90058BEFF /* SceneDelegate.swift */,
+				CE9AC8FA260A3C8A0088D2BE /* SingInViewController.swift */,
+				CE9AC902260A3CEA0088D2BE /* Auth.swift */,
+				CEF35C18260A32D90058BEFF /* Main.storyboard */,
+				CEF35C1B260A32DA0058BEFF /* Assets.xcassets */,
+				CEF35C1D260A32DA0058BEFF /* LaunchScreen.storyboard */,
+				CEF35C20260A32DA0058BEFF /* Info.plist */,
+			);
+			path = PeterAuth;
+			sourceTree = "<group>";
+		};
+		CEF35C28260A32DB0058BEFF /* PeterAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF35C29260A32DB0058BEFF /* PeterAuthTests.swift */,
+				CEF35C2B260A32DB0058BEFF /* Info.plist */,
+			);
+			path = PeterAuthTests;
+			sourceTree = "<group>";
+		};
+		CEF35C33260A32DB0058BEFF /* PeterAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF35C34260A32DB0058BEFF /* PeterAuthUITests.swift */,
+				CEF35C36260A32DB0058BEFF /* Info.plist */,
+			);
+			path = PeterAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF35C0E260A32D90058BEFF /* PeterAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF35C39260A32DB0058BEFF /* Build configuration list for PBXNativeTarget "PeterAuth" */;
+			buildPhases = (
+				CEF35C0B260A32D90058BEFF /* Sources */,
+				CEF35C0C260A32D90058BEFF /* Frameworks */,
+				CEF35C0D260A32D90058BEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeterAuth;
+			productName = PeterAuth;
+			productReference = CEF35C0F260A32D90058BEFF /* PeterAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF35C24260A32DB0058BEFF /* PeterAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF35C3C260A32DB0058BEFF /* Build configuration list for PBXNativeTarget "PeterAuthTests" */;
+			buildPhases = (
+				CEF35C21260A32DB0058BEFF /* Sources */,
+				CEF35C22260A32DB0058BEFF /* Frameworks */,
+				CEF35C23260A32DB0058BEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF35C27260A32DB0058BEFF /* PBXTargetDependency */,
+			);
+			name = PeterAuthTests;
+			productName = PeterAuthTests;
+			productReference = CEF35C25260A32DB0058BEFF /* PeterAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF35C2F260A32DB0058BEFF /* PeterAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF35C3F260A32DB0058BEFF /* Build configuration list for PBXNativeTarget "PeterAuthUITests" */;
+			buildPhases = (
+				CEF35C2C260A32DB0058BEFF /* Sources */,
+				CEF35C2D260A32DB0058BEFF /* Frameworks */,
+				CEF35C2E260A32DB0058BEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF35C32260A32DB0058BEFF /* PBXTargetDependency */,
+			);
+			name = PeterAuthUITests;
+			productName = PeterAuthUITests;
+			productReference = CEF35C30260A32DB0058BEFF /* PeterAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF35C07260A32D90058BEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CEF35C0E260A32D90058BEFF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CEF35C24260A32DB0058BEFF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CEF35C0E260A32D90058BEFF;
+					};
+					CEF35C2F260A32DB0058BEFF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CEF35C0E260A32D90058BEFF;
+					};
+				};
+			};
+			buildConfigurationList = CEF35C0A260A32D90058BEFF /* Build configuration list for PBXProject "PeterAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF35C06260A32D90058BEFF;
+			productRefGroup = CEF35C10260A32D90058BEFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF35C0E260A32D90058BEFF /* PeterAuth */,
+				CEF35C24260A32DB0058BEFF /* PeterAuthTests */,
+				CEF35C2F260A32DB0058BEFF /* PeterAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF35C0D260A32D90058BEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF35C1F260A32DA0058BEFF /* LaunchScreen.storyboard in Resources */,
+				CEF35C1C260A32DA0058BEFF /* Assets.xcassets in Resources */,
+				CEF35C1A260A32D90058BEFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF35C23260A32DB0058BEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF35C2E260A32DB0058BEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF35C0B260A32D90058BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9AC8FB260A3C8A0088D2BE /* SingInViewController.swift in Sources */,
+				CEF35C13260A32D90058BEFF /* AppDelegate.swift in Sources */,
+				CEF35C15260A32D90058BEFF /* SceneDelegate.swift in Sources */,
+				CE9AC903260A3CEA0088D2BE /* Auth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF35C21260A32DB0058BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF35C2A260A32DB0058BEFF /* PeterAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF35C2C260A32DB0058BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF35C35260A32DB0058BEFF /* PeterAuthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF35C27260A32DB0058BEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF35C0E260A32D90058BEFF /* PeterAuth */;
+			targetProxy = CEF35C26260A32DB0058BEFF /* PBXContainerItemProxy */;
+		};
+		CEF35C32260A32DB0058BEFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF35C0E260A32D90058BEFF /* PeterAuth */;
+			targetProxy = CEF35C31260A32DB0058BEFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF35C18260A32D90058BEFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF35C19260A32D90058BEFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF35C1D260A32DA0058BEFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF35C1E260A32DA0058BEFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF35C37260A32DB0058BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF35C38260A32DB0058BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF35C3A260A32DB0058BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeterAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.PeterAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF35C3B260A32DB0058BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeterAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.PeterAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF35C3D260A32DB0058BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeterAuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.PeterAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeterAuth.app/PeterAuth";
+			};
+			name = Debug;
+		};
+		CEF35C3E260A32DB0058BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeterAuthTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.PeterAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeterAuth.app/PeterAuth";
+			};
+			name = Release;
+		};
+		CEF35C40260A32DB0058BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeterAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.PeterAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeterAuth;
+			};
+			name = Debug;
+		};
+		CEF35C41260A32DB0058BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeterAuthUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Peter.PeterAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PeterAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF35C0A260A32D90058BEFF /* Build configuration list for PBXProject "PeterAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF35C37260A32DB0058BEFF /* Debug */,
+				CEF35C38260A32DB0058BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF35C39260A32DB0058BEFF /* Build configuration list for PBXNativeTarget "PeterAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF35C3A260A32DB0058BEFF /* Debug */,
+				CEF35C3B260A32DB0058BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF35C3C260A32DB0058BEFF /* Build configuration list for PBXNativeTarget "PeterAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF35C3D260A32DB0058BEFF /* Debug */,
+				CEF35C3E260A32DB0058BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF35C3F260A32DB0058BEFF /* Build configuration list for PBXNativeTarget "PeterAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF35C40260A32DB0058BEFF /* Debug */,
+				CEF35C41260A32DB0058BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF35C07260A32D90058BEFF /* Project object */;
+}
